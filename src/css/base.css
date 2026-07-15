@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    outline: none;
+}
+:root {
+    --light-00-dark: #ffffff;
+    --light-10-dark: #e5e5e5;
+    --light-20-dark: #cccbcb;
+    --light-30-dark: #b2b2b2;
+    --light-40-dark: #999898;
+    --light-50-dark: #7f7e7e;
+    --light-60-dark: #666464;
+    --light-70-dark: #4c4b4b;
+    --light-80-dark: #333131;
+    --light-90-dark: #191717;
+    --main-color: #e23434;
+    --maxWidthDefault: 1080px;
+}
+a, button, input[type=button], input[type=submit], .btn {
+    background-color: transparent;
+    text-decoration: none;
+    color: unset;
+    border: none;
+    display: block;
+    cursor: pointer;
+}
+body {
+    background-color: #ffffff;
+}
+.dx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
