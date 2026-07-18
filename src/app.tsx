@@ -1,9 +1,11 @@
-import NavBar from './components/baseComponents'
+import { NavBar, Footer } from './baseInformations'
 import './css/style.css'
 
 function App () {
     return <>
-        <NavBar />  
+        <NavBar />
+        <hr className='blank' />
+        <Footer />
     </>
 }
 
